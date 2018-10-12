@@ -1,0 +1,10 @@
+<templateSet group="surround">
+  <template name="L" value="&lt;$SELECTION$&gt;" description="Surround with &lt;&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

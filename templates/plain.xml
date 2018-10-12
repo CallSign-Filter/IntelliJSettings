@@ -1,0 +1,27 @@
+<templateSet group="plain">
+  <template name="logger" value="private Logger logger = LoggerFactory.getLogger($class$.class);" description="Initiates SLF4J logger" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="JSON" value="JSONObject $name$Obj = new JSONObject();&#10;&#10;$name$Obj.put($first$, );&#10;$name$Obj.put($second$, );&#10;jsonObject.put(&quot;$name$Obj&quot;, $name$Obj);&#10;" description="Creates a JSONObject" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="first" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="second" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="flag" value="int $val$ = $aisMessage$.$getter$();&#10;String text;&#10;if ($val$ == 0) {&#10;    text = &quot;$first$&quot;;&#10;} else {&#10;    text = &quot;$second$&quot;;&#10;}&#10;return new DecodedAisFieldObject($val$, text);" description="Decode flag information" toReformat="false" toShortenFQNames="true">
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="aisMessage" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="getter" expression="methodName().substring(0, methodName().length() -4)" defaultValue="" alwaysStopAt="true" />
+    <variable name="first" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="second" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
