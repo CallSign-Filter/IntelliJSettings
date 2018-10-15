@@ -1,28 +1,8 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="Console.TableResult.NextPage" />
-  <action id="Console.TableResult.PreviousPage" />
-  <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  <action id="BuildArtifact">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
   </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="ExtractFunction" />
-  <action id="ExtractMethod" />
-  <action id="GotoTypeDeclaration">
-    <mouse-shortcut keystroke="shift control button1" />
-    <keyboard-shortcut first-keystroke="shift ctrl i" />
-  </action>
-  <action id="Maven.ExecuteGoal">
-    <keyboard-shortcut first-keystroke="ctrl alt m" />
-  </action>
-  <action id="NextOccurence" />
-  <action id="PreviousOccurence" />
-  <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
-  </action>
-  <action id="refactoring.extract.dependency" />
 </keymap>
