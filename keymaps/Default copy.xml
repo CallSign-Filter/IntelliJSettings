@@ -2,7 +2,13 @@
   <action id="BuildArtifact">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
+  <action id="ExtractFunction" />
+  <action id="ExtractMethod" />
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
   </action>
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
+  <action id="refactoring.extract.dependency" />
 </keymap>
