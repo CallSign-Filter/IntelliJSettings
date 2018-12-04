@@ -26,6 +26,10 @@
           <option name="url" value="https://bitbucket.di2e.net/scm/noms/mil.noms.service.gatekeeper.gatekeeper-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://bitbucket.di2e.net/scm/noms/mil.noms.service.security.authorization-server.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\repos" />
