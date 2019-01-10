@@ -2,10 +2,6 @@
   <action id="BuildArtifact">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
-  <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
@@ -17,7 +13,5 @@
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
-  <action id="SetShortcutAction" />
-  <action id="ShowIntentionActions" />
   <action id="refactoring.extract.dependency" />
 </keymap>
