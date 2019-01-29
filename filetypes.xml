@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="svgz" type="Image" />
+      <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern="EquipCodeData" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
     </extensionMap>
