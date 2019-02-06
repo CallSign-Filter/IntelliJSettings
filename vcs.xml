@@ -39,11 +39,11 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/NASAWorldWind/WorldWindJava.git" />
+          <option name="url" value="https://bitbucket.di2e.net/scm/noms/mil.noms.service.data.static-data-service.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Brandon\IdeaProjects" />
+    <option name="cloneParentDir" value="C:\repos" />
   </component>
 </application>
