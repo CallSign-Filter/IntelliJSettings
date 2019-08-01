@@ -3,6 +3,9 @@
     <account id="b84e339b-7862-4f4f-b99e-e84164bbc109" name="fallowthelove">
       <server host="github.com" />
     </account>
+    <account id="8ebf8d90-6b5e-48d0-a780-436ce4da2115" name="callsign-filter">
+      <server host="github.com" />
+    </account>
   </component>
   <component name="GithubSettings">
     <option name="AUTH_TYPE" value="TOKEN" />
