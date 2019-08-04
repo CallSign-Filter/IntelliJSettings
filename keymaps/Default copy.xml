@@ -6,23 +6,36 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
+  <action id="DecrementWindowHeight" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="ExtractFunction" />
   <action id="ExtractMethod" />
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
   </action>
+  <action id="IncrementWindowHeight" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="IntroduceProperty" />
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
   <action id="TodoViewGroupByShowPackages" />
