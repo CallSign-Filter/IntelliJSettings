@@ -54,6 +54,10 @@
           <option name="url" value="https://github.com/whatadewitt/fantasy-starter-express.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/whatadewitt/yahoofantasysandbox.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Brandon\IdeaProjects" />
