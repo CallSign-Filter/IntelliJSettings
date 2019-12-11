@@ -1,0 +1,15 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceProperty" />
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="ServiceView.GroupByServiceGroups" />
+  <action id="ShowFilterPopup" />
+  <action id="TodoViewGroupByShowPackages" />
+</keymap>
